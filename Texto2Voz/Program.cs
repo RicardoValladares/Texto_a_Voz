@@ -9,7 +9,6 @@ namespace Texto2Voz{
         static void Main(string[] args){
             Voz Sonido = new Voz("Hola Mundo");
             bool Ejecucion = Sonido.Hablar();
-
             Console.WriteLine("Ejecucion exitosa? {0}", Ejecucion);
             Console.ReadKey();
         }
